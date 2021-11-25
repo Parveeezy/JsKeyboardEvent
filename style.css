@@ -1,0 +1,107 @@
+.container {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #444;
+}
+
+.block {
+    width: 75px;
+    height: 75px;
+    margin: 25px;
+    border: 2px solid #333;
+}
+
+
+.out-11 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 720px;
+    position: relative;
+    margin-left: 100px;
+}
+
+.line_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.keyboard {
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 6px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.gap {
+    margin-left: 59px;
+    display: flex;
+}
+
+.fourth {
+    position: inherit;
+    margin: -50px 5px;
+
+}
+
+.sixth {
+    width: 77px;
+    height: 50;
+}
+
+
+.keyboard[data="Space"] {
+    width: 400px;
+}
+
+.keyboard[data="Backspace"] {
+    width: 167px;
+}
+
+.keyboard[data="Tab"] {
+    width: 106px;
+    margin-right: 5px;
+}
+
+.keyboard[data="Enter"] {
+    display: block;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+}
+
+.keyboard[data="CapsLock"] {
+    width: 106px;
+}
+
+.keyboard[data="ShiftLeft"] {
+    width: 135px;
+}
+
+.keyboard[data="ShiftRight"] {
+    width: 198px;
+}
+
+.active {
+    background: orange;
+}
+
+.hide {
+    display: none;
+}
+
+.block-10 {
+    width: 75px;
+    height: 75px;
+    background: orangered;
+    margin: 5px;
+}
